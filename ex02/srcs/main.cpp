@@ -6,7 +6,7 @@
 /*   By: nbardavi <nbabardavid@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 09:57:35 by nbardavi          #+#    #+#             */
-/*   Updated: 2024/05/03 16:13:25 by nbardavi         ###   ########.fr       */
+/*   Updated: 2024/05/06 09:24:38 by nbardavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 #include "../include/Array.class.hpp"
 #include <cctype>
 
-// Fonction pour tester l'affichage des éléments de l'Array
 template<typename T>
 void printArray(const Array<T>& array) {
     for (unsigned int i = 0; i < array.size(); i++) {
